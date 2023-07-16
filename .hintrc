@@ -1,0 +1,21 @@
+{
+  "connector": {
+    "name": "local",
+    "options": {
+      "pattern": [
+        "**",
+        "!.git/**",
+        "!.svelte-kit/**",
+        "!node_modules/**"
+      ],
+      "watch": false
+    }
+  },
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "typescript-config/strict": "off",
+    "typescript-config/consistent-casing": "off"
+  }
+}
